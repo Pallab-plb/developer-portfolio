@@ -125,22 +125,38 @@ main {
     display: flex;
     justify-content: space-around;
     /* padding-top: 30px; */
-}
-.about-info{
-    text-align: center;
+
 }
 
-/* .about-info-container{ */
-position: absolute;
-/* width: 118px;
-height: 60px;
-left: 22.5px;
-top: 228px; */
-/* font-family: 'Open Sans'; */
-/* font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #757575; */
+.about-info {
+    text-align: center;
+
 }
+
+#what-i-do-description {
+    padding: 30px 150px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-descriptionn{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+line-height: 28px;
+}
+
+
