@@ -10,7 +10,6 @@ body {
     color: #181818;
     font-family: open sans;
     font-size: 45px;
-    font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
@@ -87,7 +86,6 @@ nav a {
 
 .banner-title {
     font-size: 85px;
-    font-style: normal;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -197,7 +195,8 @@ main section {
     margin-bottom: 30px;
     margin-top: 0px;
 }
-.resume-item-title{
+
+.resume-item-title {
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
@@ -205,17 +204,64 @@ main section {
     margin-bottom: 10px;
 }
 
-.resume-column-title{
-font-weight: 700;
-font-size: 30px;
-line-height: 41px;
-color: #474747;
+.resume-column-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
 }
-.resume-container he{
-    margin:30px 0;
+
+.resume-container he {
+    margin: 30px 0;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-link a {
+    margin-right: 25px;
+}
+
+form input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 350px 18px 30px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 460px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
